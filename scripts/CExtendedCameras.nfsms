@@ -1,0 +1,58 @@
+ui_text NFS Carbon Extended Cameras 2.0.0
+ui_text 
+ui_text 
+ui_text Default configuation: Far, close and bumper cameras have a lower height, FOV is high, better for cinematic gameplay
+ui_text Gameplay configuation: Far, close and bumper cameras are slightly raised up, FOV is lower, improving visibility, better for casual gameplay
+ui_control radiobutton handling defaultconfig "Default configuation"
+ui_control radiobutton handling gameplayconfig "Gameplay configuation"
+
+ui_option handling defaultconfig
+update_field camerainfo far FOV[0] 90
+update_field camerainfo far FOV[1] 100
+update_field camerainfo far STIFFNESS[0] 0.5
+update_field camerainfo far STIFFNESS[1] 0.5
+update_field camerainfo far HEIGHT[0] 1.6
+update_field camerainfo far HEIGHT[1] 1.8
+update_field camerainfo far LAG[0] -5.2
+update_field camerainfo far LAG[1] -8
+update_field camerainfo close FOV[0] 95
+update_field camerainfo close FOV[1] 105
+update_field camerainfo close HEIGHT[0] 1.35
+update_field camerainfo close HEIGHT[1] 3.23
+update_field camerainfo close LAG[0] -4
+update_field camerainfo close LAG[1] -8.2
+update_field camerainfo bumper FOV[0] 95
+update_field camerainfo bumper FOV[1] 120
+update_field camerainfo bumper HEIGHT[0] 0.546
+update_field camerainfo bumper HEIGHT[1] 0.596
+update_field camerainfo bumper ANGLE[0] 3.5
+update_field camerainfo bumper ANGLE[1] 0
+update_field camerainfo bumper LAG[0] 1.45
+update_field camerainfo bumper LAG[1] 0.5
+ui_option handling defaultconfig
+
+ui_option handling gameplayconfig
+update_field camerainfo far FOV[0] 80
+update_field camerainfo far FOV[1] 95
+update_field camerainfo far STIFFNESS[0] 0.5
+update_field camerainfo far STIFFNESS[1] 0.5
+update_field camerainfo far HEIGHT[0] 1.76
+update_field camerainfo far HEIGHT[1] 1.85
+update_field camerainfo far LAG[0] -5.8
+update_field camerainfo far LAG[1] -8
+update_field camerainfo close FOV[0] 88.8
+update_field camerainfo close FOV[1] 95
+update_field camerainfo close HEIGHT[0] 1.43
+update_field camerainfo close HEIGHT[1] 3.25
+update_field camerainfo close LAG[0] -4.2
+update_field camerainfo close LAG[1] -8.2
+update_field camerainfo bumper FOV[0] 95
+update_field camerainfo bumper FOV[1] 120
+update_field camerainfo bumper HEIGHT[0] 0.546
+update_field camerainfo bumper HEIGHT[1] 0.596
+update_field camerainfo bumper ANGLE[0] 3
+update_field camerainfo bumper ANGLE[1] 0
+update_field camerainfo bumper LAG[0] 1.5
+update_field camerainfo bumper LAG[1] 0.5
+ui_option handling gameplayconfig
+

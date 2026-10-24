@@ -1,0 +1,143 @@
+#required NFS-VltEd version
+version 4.5
+#target game
+game C
+#mod description
+ui_text Need For Speed Carbon - Better Light Flares
+ui_text Version: 1.0.0
+ui_text Author: Avalanche
+ui_text 
+ui_text Hi there, thanks for installing my mod!
+ui_text This mod aims to improve Carbon's graphics by touching up the look of the light flashes and flares frequently seen in-game.
+ui_text The goal was to create a more refined and vibrant look that still fits the game's atmosphere.
+ui_text The color contrast of police lights, headlights, and taillights have been increased, as well as the size and style of some of these effects.
+ui_text Also included is the option to disable white police lights, as seen in the console releases of the game.
+ui_text This mod is certified to be fully compatible with all other graphical effects and mods, provided it is installed after them.
+ui_text Feel free to make any changes you desire, and if any issues arise, please contact me!
+ui_text 
+#checkbox
+ui_control checkbox option1_checkbox false "EXTRA FEATURE: Disable white police lights (similar to console versions)."
+#images
+ui_image LookAtMe.jpg
+
+
+
+### PRIMARY DATABASE SCRIPT ###
+
+update_field light_flares_cg brakelight_inner colour X 0.82
+update_field light_flares_cg brakelight_inner colour Y 0.06
+update_field light_flares_cg brakelight_inner colour Z 0
+update_field light_flares_cg brakelight_inner colour W 0.24
+update_field light_flares_cg brakelight_inner flare_texture 0
+update_field light_flares_cg brakelight_inner Maxscale 0.05
+update_field light_flares_cg brakelight_inner MaxSize 40
+update_field light_flares_cg brakelight_inner MinScale 0.01
+update_field light_flares_cg brakelight_inner MinSize 20
+update_field light_flares_cg brakelight_inner Power 0.46
+update_field light_flares_cg brakelight_inner ZBias 0.22
+
+update_field light_flares_cg coplightblue_inner colour X 0.04
+update_field light_flares_cg coplightblue_inner colour Y 0.14
+update_field light_flares_cg coplightblue_inner colour Z 0.88
+update_field light_flares_cg coplightblue_inner colour W 0.42
+update_field light_flares_cg coplightblue_inner flare_texture 0
+update_field light_flares_cg coplightblue_inner Maxscale 0.03
+update_field light_flares_cg coplightblue_inner MaxSize 50
+update_field light_flares_cg coplightblue_inner MinScale 0.02
+update_field light_flares_cg coplightblue_inner MinSize 40
+update_field light_flares_cg coplightblue_inner Power 1.24
+update_field light_flares_cg coplightblue_inner ZBias 1.02
+
+update_field light_flares_cg coplightbrightblue colour X 0
+update_field light_flares_cg coplightbrightblue colour Y 0
+update_field light_flares_cg coplightbrightblue colour Z 0.74
+update_field light_flares_cg coplightbrightblue colour W 0.42
+update_field light_flares_cg coplightbrightblue flare_texture 0
+update_field light_flares_cg coplightbrightblue Maxscale 0.03
+update_field light_flares_cg coplightbrightblue MaxSize 50
+update_field light_flares_cg coplightbrightblue MinScale 0.02
+update_field light_flares_cg coplightbrightblue MinSize 40
+update_field light_flares_cg coplightbrightblue Power 1.24
+update_field light_flares_cg coplightbrightblue ZBias 1.02
+
+update_field light_flares_cg coplightbrightred colour X 0.74
+update_field light_flares_cg coplightbrightred colour Y 0
+update_field light_flares_cg coplightbrightred colour Z 0
+update_field light_flares_cg coplightbrightred colour W 0.42
+update_field light_flares_cg coplightbrightred flare_texture 0
+update_field light_flares_cg coplightbrightred Maxscale 0.03
+update_field light_flares_cg coplightbrightred MaxSize 50
+update_field light_flares_cg coplightbrightred MinScale 0.02
+update_field light_flares_cg coplightbrightred MinSize 40
+update_field light_flares_cg coplightbrightred Power 1.24
+update_field light_flares_cg coplightbrightred ZBias 1.02
+
+update_field light_flares_cg coplightred_inner colour X 0.88
+update_field light_flares_cg coplightred_inner colour Y 0.14
+update_field light_flares_cg coplightred_inner colour Z 0.04
+update_field light_flares_cg coplightred_inner colour W 0.42
+update_field light_flares_cg coplightred_inner flare_texture 0
+update_field light_flares_cg coplightred_inner Maxscale 0.03
+update_field light_flares_cg coplightred_inner MaxSize 50
+update_field light_flares_cg coplightred_inner MinScale 0.02
+update_field light_flares_cg coplightred_inner MinSize 40
+update_field light_flares_cg coplightred_inner Power 1.24
+update_field light_flares_cg coplightred_inner ZBias 1.02
+
+update_field light_flares_cg coplightwhite_inner colour X 0.42
+update_field light_flares_cg coplightwhite_inner colour Y 0.42
+update_field light_flares_cg coplightwhite_inner colour Z 0.42
+update_field light_flares_cg coplightwhite_inner colour W 0.42
+update_field light_flares_cg coplightwhite_inner flare_texture 0
+update_field light_flares_cg coplightwhite_inner Maxscale 0.02
+update_field light_flares_cg coplightwhite_inner MaxSize 50
+update_field light_flares_cg coplightwhite_inner MinScale 0.01
+update_field light_flares_cg coplightwhite_inner MinSize 40
+update_field light_flares_cg coplightwhite_inner Power 0.76
+update_field light_flares_cg coplightwhite_inner ZBias 1.02
+
+update_field light_flares_cg headlight_inner colour X 0.46
+update_field light_flares_cg headlight_inner colour Y 0.58
+update_field light_flares_cg headlight_inner colour Z 0.98
+update_field light_flares_cg headlight_inner colour W 0.26
+update_field light_flares_cg headlight_inner flare_texture 1
+update_field light_flares_cg headlight_inner Maxscale 0.03
+update_field light_flares_cg headlight_inner MaxSize 45
+update_field light_flares_cg headlight_inner MinScale 0.001
+update_field light_flares_cg headlight_inner MinSize 0.01
+update_field light_flares_cg headlight_inner Power 1
+update_field light_flares_cg headlight_inner ZBias 0.8
+
+update_field light_flares_cg headlight_outer colour X 1
+update_field light_flares_cg headlight_outer colour Y 1
+update_field light_flares_cg headlight_outer colour Z 1
+update_field light_flares_cg headlight_outer colour W 1
+update_field light_flares_cg headlight_outer flare_texture 2
+update_field light_flares_cg headlight_outer Maxscale 0.03
+update_field light_flares_cg headlight_outer MaxSize 5
+update_field light_flares_cg headlight_outer MinScale 0.02
+update_field light_flares_cg headlight_outer MinSize 1
+update_field light_flares_cg headlight_outer Power 2
+update_field light_flares_cg headlight_outer ZBias 0.8
+
+update_field light_flares_cg reverselight_inner colour X 0.4
+update_field light_flares_cg reverselight_inner colour Y 0.66
+update_field light_flares_cg reverselight_inner colour Z 0.66
+update_field light_flares_cg reverselight_inner colour W 0.42
+update_field light_flares_cg reverselight_inner flare_texture 0
+update_field light_flares_cg reverselight_inner Maxscale 0.01
+update_field light_flares_cg reverselight_inner MaxSize 25
+update_field light_flares_cg reverselight_inner MinScale 0.005
+update_field light_flares_cg reverselight_inner MinSize 10
+update_field light_flares_cg reverselight_inner Power 0.76
+update_field light_flares_cg reverselight_inner ZBias 1.2
+
+
+
+### OPTIONAL FEATURE 01 ###
+ui_option option1_checkbox
+
+update_field light_flares_cg coplightwhite_inner colour X 0
+update_field light_flares_cg coplightwhite_inner colour Y 0
+update_field light_flares_cg coplightwhite_inner colour Z 0
+update_field light_flares_cg coplightwhite_inner colour W 0
