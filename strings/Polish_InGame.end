@@ -1,0 +1,16 @@
+[VERSN2]
+// Labrune - C:\nlgxzef Works\Games\NFS Carbon\LANGUAGES\English_InGame.bin
+// File created on: 2024/12/26 10:27:11
+
+if file_exists absolute Languages\Polish_InGame.bin
+do
+new negate Languages\Polish_InGame.bin
+
+// Chunk 0 - InGame
+
+add_or_update_string Languages\Polish_InGame.bin STRBlocks InGame AUTO HUD_COPDESTROYED_DEFAULT "^COMBO BOUNTY: %$d"
+
+delete Languages\Polish_InGame.bin
+else // do nothing
+end
+

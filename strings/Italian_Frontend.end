@@ -1,0 +1,17 @@
+[VERSN2]
+// *Labrune - C:\nlgxzef Works\Games\NFS Carbon\LANGUAGES\English_Frontend.bin
+// File created on: 2024/12/26 10:24:07
+
+if file_exists absolute Languages\Italian_Frontend.bin
+do
+new negate Languages\Italian_Frontend.bin
+
+// Chunk 0 - Frontend
+
+add_or_update_string Languages\Italian_Frontend.bin STRBlocks Frontend AUTO PRESITTER_DUMP_FAIL "Unable to save preset file."
+add_or_update_string Languages\Italian_Frontend.bin STRBlocks Frontend AUTO PRESITTER_DUMP_SUCCESS "Successfully saved preset file."
+
+delete Languages\Italian_Frontend.bin
+else // do nothing
+end
+
