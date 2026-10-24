@@ -19,11 +19,11 @@ The project adds support for high widescreen resolutions and ensures compatibili
 
 # Key Features of NFS Carbon Redux:
 
-- **• Dynamic 24-Hour Timecycle:** One of the most groundbreaking features in recent versions (like Redux 2.1) is the addition of a daytime cycle and a dynamic night/day system. It adds dynamic lighting, rain, and allows you to manually adjust the time of day to see Carbon’s map in broad daylight.
-- **• 4K UHD Textures & HD HUDs:** The mod strips away the original game's heavy blue/yellow filters. It replaces old textures with upscaled HD graphics, ultra-crisp skyboxes, high-resolution roads, and sharp modern interfaces/menus.
-- **• Modern Effects: It implements** advanced HD reflections, custom motion blur filters, upgraded car paint materials (metallic flake, matte, chrome, pearl shifts), and real-time brake discs that realistically glow under hard braking.
-- **• Bonus & Hidden Cars:** The mod injects popular cars into the game, including several fan favorites from Need for Speed: Most Wanted (2005) and mechanics brought over from Need for Speed World.
-- **• Enhanced Customization:** Every vehicle receives extensive visual modding capabilities, such as underglow neon lights, custom body kits, opening hoods/doors in the garage, and fine-tuned sound optimization for realistic engine roars.
+- ** Dynamic 24-Hour Timecycle:** One of the most groundbreaking features in recent versions (like Redux 2.1) is the addition of a daytime cycle and a dynamic night/day system. It adds dynamic lighting, rain, and allows you to manually adjust the time of day to see Carbon’s map in broad daylight.
+- ** 4K UHD Textures & HD HUDs:** The mod strips away the original game's heavy blue/yellow filters. It replaces old textures with upscaled HD graphics, ultra-crisp skyboxes, high-resolution roads, and sharp modern interfaces/menus.
+- ** Modern Effects: It implements** advanced HD reflections, custom motion blur filters, upgraded car paint materials (metallic flake, matte, chrome, pearl shifts), and real-time brake discs that realistically glow under hard braking.
+- ** Bonus & Hidden Cars:** The mod injects popular cars into the game, including several fan favorites from Need for Speed: Most Wanted (2005) and mechanics brought over from Need for Speed World.
+- ** Enhanced Customization:** Every vehicle receives extensive visual modding capabilities, such as underglow neon lights, custom body kits, opening hoods/doors in the garage, and fine-tuned sound optimization for realistic engine roars.
 
 
 
