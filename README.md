@@ -1,6 +1,6 @@
 # NFS-Carbon-Redux
 
-NFSC Redux (Ultimate Overhaul, Cars & Graphics Mod)
+**NFSC Redux (Ultimate Overhaul, Cars & Graphics Mod)**
 
 
 <img width="1280" height="720" alt="nfs carbon" src="https://github.com/user-attachments/assets/2b7aeb67-7777-41b1-bced-19e04212238f" />
