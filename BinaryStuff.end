@@ -1,0 +1,14 @@
+[VERSN2]
+
+version 2.8.3
+watermark ""
+
+combobox "New Installation" "Upgrade / Dirty Installation" "NFSC Unlimiter: Please choose what to do."
+
+"New Installation"
+append _Menu\_Install.end
+
+"Upgrade / Dirty Installation"
+append _Menu\_Upgrade.end
+
+end
